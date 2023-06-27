@@ -1,10 +1,14 @@
+import Topbar from "./topbar/Topbar";
+
 
 function App() {
   return (
     <div className="App">
-     JS-Blog
+     <Topbar/>
     </div>
   );
 }
 
 export default App;
+
+
