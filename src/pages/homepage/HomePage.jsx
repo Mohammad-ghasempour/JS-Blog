@@ -1,11 +1,16 @@
-import Header from "../../header/Header"
-import "./homePage.css"
+import Header from "../../header/Header";
+import "./homePage.css";
+import Posts from "../../posts/Posts";
+import Sidebar from "../../sidebar/Sidebar";
 
 export default function HomePage() {
-  return (
-    <div className='homePage'>
-        <Header/>
-        home page...
-    </div>
-  )
+   return (
+      <>
+         <Header />
+         <div className="homePage">
+            <Posts />
+            <Sidebar />
+         </div>
+      </>
+   );
 }

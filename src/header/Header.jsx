@@ -1,4 +1,5 @@
-import "./header.css"
+import "./header.css";
+import HeaderImage from "../Assets/images/JavascriptBanner.jpg";
 
 export default function Header() {
   return (
@@ -7,7 +8,9 @@ export default function Header() {
             <span className="headerTitleSmall">Javascript & Node.js</span>
             <span className="headerTitleLarge">JS Blog</span>
         </div>
-        {/* <img className="headerImg" src="../Assets/images/JavascriptBanner.jpg " alt="dddd" /> */}
+        
+
+        <img className="headerImg" src={HeaderImage} alt="dddd" />
     </div>
   )
 }
