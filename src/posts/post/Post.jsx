@@ -11,17 +11,22 @@ export default function Post() {
                <span className="postCat">Learn</span>
             </div>
             <h1 className="postTitle">Compare Javascript vs Python</h1>
-            <span className="timeStamp">1 hour ago</span>
-            <p className="description">
-               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
-               eius, magni dolores possimus iusto ipsum totam velit tenetur illo
-               consequuntur veniam ad ipsa! Reiciendis perspiciatis quisquam
-               similique neque vel cupiditate! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
-               eius, magni dolores possimus iusto ipsum totam velit tenetur illo
-               consequuntur veniam ad ipsa! Reiciendis perspiciatis quisquam
-               similique neque vel cupiditate!
-            </p>
+            <hr />
+            <span className="postTimeStamp">1 hour ago</span>
          </div>
+         <p className="postDescription">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
+            eius, magni dolores possimus iusto ipsum totam velit tenetur illo
+            consequuntur veniam ad ipsa! Reiciendis perspiciatis quisquam
+            similique neque vel cupiditate! Lorem ipsum dolor, sit amet
+            consectetur adipisicing elit. Neque eius, magni dolores possimus
+            iusto ipsum totam velit tenetur illo consequuntur veniam ad ipsa!
+            Reiciendis perspiciatis quisquam similique neque vel cupiditate!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque
+            eius, magni dolores possimus iusto ipsum totam velit tenetur illo
+            consequuntur veniam ad ipsa! Reiciendis perspiciatis quisquam
+            similique neque vel cupiditate!
+         </p>
       </div>
    );
 }
