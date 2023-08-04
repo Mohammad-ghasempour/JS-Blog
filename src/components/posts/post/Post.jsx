@@ -1,5 +1,5 @@
 import "./post.css";
-import postImg from "../../Assets/images/nodejs-vs-python.jpeg";
+import postImg from "../../../Assets/images/nodejs-vs-python.jpeg";
 
 export default function Post() {
    return (

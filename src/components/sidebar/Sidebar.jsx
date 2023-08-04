@@ -1,5 +1,5 @@
 import "./sidebar.css";
-import OwnerImage from "../Assets/images/Owner.png";
+import OwnerImage from "../../Assets/images/Owner.png";
 
 export default function Sidebar() {
    return (

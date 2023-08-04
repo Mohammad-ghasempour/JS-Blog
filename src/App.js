@@ -1,5 +1,5 @@
-import HomePage from "./pages/homepage/HomePage";
-import Topbar from "./topbar/Topbar";
+import HomePage from "./components/homepage/HomePage";
+import Topbar from "./components/topbar/Topbar";
 
 
 
