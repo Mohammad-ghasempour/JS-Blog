@@ -1,8 +1,85 @@
-
-.settings{
+.settings {
     display: flex;
 }
 
-.settingsWrapper{
+.settingsWrapper {
     flex: 9;
+    padding: 20px;
+}
+
+.settingsTitle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.settingsUpdateTitle {
+    font-size: 30px;
+
+    color: lightcoral;
+}
+
+.settingsDeleteTitle {
+    color: red;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.settingsForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.settingsProfilePicture {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+
+}
+
+.settingsProfilePicture>img {
+    height: 70px;
+    width: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.settingsProfileIcon {
+    height: 25px;
+    width: 25px;
+    background-color: coral;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.settingsForm>label {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.settingsForm>input{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 10px 0;
+    height: 30px;
+    outline: none;
+    
+}
+.settingsSubmit{
+    width: 150px;
+    align-self: center;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    background-color: teal;
+    cursor: pointer;
+    margin-top: 20px;
 }

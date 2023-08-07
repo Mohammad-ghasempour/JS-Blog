@@ -19,7 +19,7 @@ export default function Settings() {
                      className="profileImage"
                   />
                   <label htmlFor="fileInput">
-                     <i className=" userIcon fa-solid fa-circle-user"></i>
+                     <i className="settingsProfileIcon fa-regular fa-circle-user"></i>
                   </label>
                   <input
                      type="file"
@@ -32,7 +32,8 @@ export default function Settings() {
                <label>Email:</label>
                <input type="email" placeholder="your email..." />
                <label>Password:</label>
-               <input type="password"/>
+               <input type="password" />
+               <button className="settingsSubmit">Update</button>
             </form>
          </div>
          <Sidebar />
