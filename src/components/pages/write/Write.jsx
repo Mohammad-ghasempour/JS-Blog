@@ -1,9 +1,11 @@
 import Sidebar from "../../sidebar/Sidebar";
 import "./write.css";
+import javascriptImage from '../../../Assets/images/Javascript.jpg'
 
 export default function Write() {
    return (
       <div className="write">
+         <img src={javascriptImage} alt="Javascript Header Image" className="witeImage" />
          <form className="writeForm">
             <div className="writeFormGroup">
                <label htmlFor="fileInput">

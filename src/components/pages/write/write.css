@@ -1,7 +1,13 @@
 .write {
     padding-top: 50px;
 }
-
+.witeImage{
+    height: 250px;
+    width: 70vw;
+    margin-left: 150px;
+    border-radius: 10px;
+    object-fit: cover;
+}
 .writeForm {
     position: relative;
 }
@@ -36,7 +42,8 @@
 .writeText {
 
     font-size: 20px;
-    /* resize: none; */
+    height: 100vh;
+    resize: none;
 }
 
 .writeSubmit {
