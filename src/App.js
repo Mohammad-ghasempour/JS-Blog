@@ -1,4 +1,5 @@
 import HomePage from "./components/pages/homepage/HomePage";
+import Settings from "./components/pages/settings/Settings";
 import Single from "./components/pages/single/Single";
 import Write from "./components/pages/write/Write";
 import Topbar from "./components/topbar/Topbar";
@@ -11,8 +12,10 @@ function App() {
      <Topbar/>
      {/* <HomePage/> */}
      {/* <Single/> */}
-     <Write/>
+     {/* <Write/> */}
+     <Settings/>
     </div>
+
   );
 }
 
