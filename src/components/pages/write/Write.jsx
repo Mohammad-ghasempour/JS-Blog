@@ -20,8 +20,9 @@ export default function Write() {
 
             <div className="writeFormGroup">
                <textarea
-                  placeholder="Write your story..."
+                  placeholder="Tell your story..."
                   type="text"
+                 
                   className="writeInput writeText"
                ></textarea>
             </div>
